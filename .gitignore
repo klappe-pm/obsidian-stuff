@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# local agent prompt capture
+docs/prompts/
+
+# editor and tooling state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# secrets and local config
+.env
+.env.*
+!.env.example
+settings.local.json
