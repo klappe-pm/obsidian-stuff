@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CODEX_PROJECT_DIR/.codex/hooks/no-emdash-guard.sh",
+            "timeout": 3
+          },
+          {
+            "type": "command",
+            "command": "$CODEX_PROJECT_DIR/.codex/hooks/no-hardwrap-guard.sh",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
