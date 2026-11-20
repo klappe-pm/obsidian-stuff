@@ -13,3 +13,4 @@ docs/prompts/
 .env.*
 !.env.example
 settings.local.json
+llm-root-control-plane.md
